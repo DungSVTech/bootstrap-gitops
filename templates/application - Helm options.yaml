@@ -15,6 +15,7 @@ spec:
     helm:
      releaseName: my-release
   syncPolicy:
+    automated: {}
     syncOptions:
       - CreateNamespace=true
 
